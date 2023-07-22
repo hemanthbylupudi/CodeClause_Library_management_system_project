@@ -94,6 +94,8 @@ class LMS:
                 print("Book Id is not Found!!!")
                 
 obj = LMS("Genaral ")
+print("Welcome To {} Library".format(obj.library_name))
+print("-------------------------------------------------------------")
 operations_list= {"D":"DISPLAY BOOKS","I":"ISSUE A BOOK","A":"ADD A BOOK","R":"RETURN","Q":"QUIT"}
 operation = False
 while not (operation == "q"):
